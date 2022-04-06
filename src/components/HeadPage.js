@@ -6,8 +6,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Products', href: '#' },
   { name: 'About Us', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Contact Us', href: '#' },
 ]
 
 export default function Example() {
@@ -34,7 +33,7 @@ export default function Example() {
                       <span className="sr-only">Workflow</span>
                       <img
                         className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        src="https://tiimg.tistatic.com/images/l/2/logo_31241.gif"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -107,8 +106,7 @@ export default function Example() {
                 <span className="block text-indigo-600 xl:inline">INDUSTRIES</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+              Manufacturer, Exporter & Supplier of All kinds of Submersible Pumps, Self Priming Monoblock Pumps, Super Suction Pumps, Shallow Well Pumps & Electric Motors.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -135,7 +133,7 @@ export default function Example() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          src="https://media.istockphoto.com/photos/laser-cutting-of-metal-modern-industrial-technology-picture-id1030477600?k=20&m=1030477600&s=612x612&w=0&h=p5DqEp3pCkPoDEcO0FolE9lnu5w73jJm8u9ihgK3tx0="
           alt=""
         />
       </div>
