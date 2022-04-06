@@ -38,6 +38,11 @@ const products = [
 export default function Products() {
   return (
     <div>
+        <div className='container m-8 text-center'>
+        <span class="bg-clip-text text-[60px] text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+             Our Products
+        </span>
+        </div>
       <div className="bg-white">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Products</h2>

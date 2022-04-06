@@ -6,7 +6,7 @@ import Products from './components/Products';
 function App() {
   return (
     <>
-    <Navbar title="Jaggi Industries"/>
+    <Products/>
     </>
   );
 }
