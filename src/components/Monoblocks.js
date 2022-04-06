@@ -32,13 +32,10 @@ const products = [
     // More products...
   ]
 
-export default function Products() {
+export default function Monoblocks() {
   return (
     <div>
         <div className='container m-8 text-center'>
-        <span className="bg-clip-text text-[60px] text-transparent bg-gradient-to-r from-cyan-500 to-violet-500">
-             Our Products
-        </span>
         <h1 className="text-4xl text-centre pt-10 font-normal leading-normal mt-0 mb-2">
           Monoblock Pumps
         </h1>
