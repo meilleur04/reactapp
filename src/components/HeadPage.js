@@ -109,20 +109,13 @@ export default function Example() {
               Manufacturer, Exporter & Supplier of All kinds of Submersible Pumps, Self Priming Monoblock Pumps, Super Suction Pumps, Shallow Well Pumps & Electric Motors.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                  >
-                    Get started
-                  </a>
-                </div>
+
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex content-centre justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Get Started
                   </a>
                 </div>
               </div>
@@ -133,7 +126,7 @@ export default function Example() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://media.istockphoto.com/photos/laser-cutting-of-metal-modern-industrial-technology-picture-id1030477600?k=20&m=1030477600&s=612x612&w=0&h=p5DqEp3pCkPoDEcO0FolE9lnu5w73jJm8u9ihgK3tx0="
+          src="https://static8.depositphotos.com/1000291/1005/i/600/depositphotos_10054154-stock-photo-laser-cutting-of-metal-sheet.jpg"
           alt=""
         />
       </div>
