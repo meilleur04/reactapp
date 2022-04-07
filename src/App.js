@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/HeadPage';
 import Products from './components/Products';
-import Monoblocks from './components/Products';
+import HeadPage from './components/HeadPage';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-    <Products/>
+    <Navbar/>
+    <HeadPage/>
     </>
   );
 }
