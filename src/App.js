@@ -15,14 +15,13 @@ function App() {
     <Router>
     <Navbar/>
     <Switch>
-          <Route path="/about">
-            <HeadPage/>
-          </Route>
-          <Route path="/products">
+        <Route exact path="/products">
             <Products/>
           </Route>
+        <Route path="/">
+          <HeadPage/>
+        </Route>
         </Switch>
-    <HeadPage/>
     </Router>
     </>
   );
