@@ -5,8 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   {name: 'Home', href: '#'},
-  { name: 'Products', href: '#' },
-  { name: 'About us & Contact us', href: '#' },
+  { name: 'Products', href: '#' }
 ]
 
 export default function Navbar() {
@@ -45,12 +44,18 @@ export default function Navbar() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-5 md:pr-5 md:space-x-8">
-                  {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
-                      {item.name}
+                <div className="hidden md:block md:ml-2 md:pr-2 md:space-x-3">
+                  
+                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-2 border border-gray-400 rounded shadow">
+                    Home
+                  </button>
+                  <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-2 border border-gray-400 rounded shadow">
+                    Products
+                  </button>
+            
+                  <a href='#' className="font-medium text-gray-500 hover:text-gray-900">
+                      About us & Contact us
                     </a>
-                  ))}
                 </div>
               </nav>
             </div>
