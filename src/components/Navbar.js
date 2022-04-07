@@ -2,10 +2,11 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Link } from 'react-router-dom'
 
 const navigation = [
-  {name: 'Home', href: '#'},
-  { name: 'Products', href: '#' }
+  {name: 'Home', To: '#'},
+  { name: 'Products', To: '#' }
 ]
 
 export default function Navbar() {
@@ -29,13 +30,13 @@ export default function Navbar() {
               <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                     <Link To="#">
                       <span className="sr-only">Workflow</span>
                       <img
                         className="h-8 w-auto sm:h-10"
                         src="https://tiimg.tistatic.com/images/l/2/logo_31241.gif"
                       />
-                    </a>
+                    </Link>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
@@ -46,16 +47,16 @@ export default function Navbar() {
                 </div>
                 <div className="hidden md:block md:ml-2 md:pr-2 md:space-x-3">
                   
-                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-2 border border-gray-400 rounded shadow">
-                    Home
-                  </button>
-                  <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-2 border border-gray-400 rounded shadow">
-                    
-                  </button>
+                <Link To='/' className="font-medium text-gray-500 hover:text-gray-900">
+                      Home
+                    </Link>
+                   <Link To='/' className="font-medium text-gray-500 hover:text-gray-900">
+                      Products
+                    </Link>
             
-                  <a href='#' className="font-medium text-gray-500 hover:text-gray-900">
+                   <Link To='#' className="font-medium text-gray-500 hover:text-gray-900">
                       About us & Contact us
-                    </a>
+                    </Link>
                 </div>
               </nav>
             </div>
@@ -91,13 +92,13 @@ export default function Navbar() {
                   </div>
                   <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map((item) => (
-                      <a
+                       <Link
                         key={item.name}
-                        href={item.href}
+                        To={item.To}
                         className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

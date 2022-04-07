@@ -43,12 +43,12 @@ export default function HeadPage() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <Link
-                    to="#"
+                  <a
+                    href="#"
                     className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-full flex content-centre justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
                     Get Started
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
