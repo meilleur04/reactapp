@@ -3,27 +3,28 @@ const products = [
     {
       id: 1,
       name: 'Earthen Bottle',
+      price: 3000,
       href: '#',
       imageSrc: 'https://cpimg.tistatic.com/00638453/b/9/Centrifugal-Monoblock-Pumpsets.jpg',
       imageAlt: 'Pump',
     },
     {
       id: 2,
-      name: 'Nomad Tumbler',
+      name: '',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
       id: 3,
-      name: 'Focus Paper Refill',
+      name: 'Whatever',
       href: '#',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
       id: 4,
-      name: 'Machined Mechanical Pencil',
+      name: 'Whatever',
       href: '#',
 
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',

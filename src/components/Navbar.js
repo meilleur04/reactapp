@@ -45,7 +45,7 @@ export default function Navbar() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-2 md:pr-2 md:space-x-3">
+                <div className="hidden md:block md:ml-9 md:pr-2 md:space-x-5">
                   
                 <Link to='/' className="font-medium text-gray-500 hover:text-gray-900">
                       Home
