@@ -50,7 +50,7 @@ export default function Navbar() {
                     Home
                   </button>
                   <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-2 border border-gray-400 rounded shadow">
-                    Products
+                    
                   </button>
             
                   <a href='#' className="font-medium text-gray-500 hover:text-gray-900">
