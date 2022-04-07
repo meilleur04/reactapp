@@ -4,9 +4,11 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
+  {name: 'Home', href: '#'},
   { name: 'Products', href: '#' },
-  { name: 'About Us', href: '#' },
-  { name: 'Contact Us', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'Contact', href: '#' },
+
 ]
 
 export default function Navbar() {
@@ -14,7 +16,7 @@ export default function Navbar() {
     <div>
       <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+        <div className="relative z-10 pb-8 bg-white sm:pb-1 md:pb-1 lg:max-w-2xl lg:w-full lg:pb-2 xl:pb-3">
           <svg
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
             fill="currentColor"
