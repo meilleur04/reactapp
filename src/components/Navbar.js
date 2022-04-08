@@ -54,9 +54,9 @@ export default function Navbar() {
                       Products
                     </Link>
             
-                   <Link to='#' className="font-medium text-gray-500 hover:text-gray-900">
+                   <a href='meilleur04.github.io/jaggiIndustries' className="font-medium text-gray-500 hover:text-gray-900">
                       About us & Contact us
-                    </Link>
+                    </a>
                 </div>
               </nav>
             </div>
