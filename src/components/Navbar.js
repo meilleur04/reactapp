@@ -11,6 +11,7 @@ const navigation = [
 
 export default function Navbar() {
   return (
+    <>
     <div>
       <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -45,7 +46,7 @@ export default function Navbar() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-9 md:pr-2 md:space-x-5">
+                <div className="hidden md:block md:ml-6 md:pr-2 md:space-x-5">
                   
                 <Link to='/' className="font-medium text-gray-500 hover:text-gray-900">
                       Home
@@ -58,6 +59,12 @@ export default function Navbar() {
                       About us & Contact us
                     </a>
                 </div>
+                <div class="flex">
+  <div class="form-check form-switch">
+    <input class="form-check-input appearance-none w-9 -ml-10 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+  </div>
+</div>
+             
               </nav>
             </div>
 
@@ -109,5 +116,6 @@ export default function Navbar() {
       </div>
     </div>
     </div>
+    </>
   )
 }

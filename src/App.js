@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import {ThemeProvider, createTheme} from '@mui/materials'
+import { useState } from 'react';
 import './App.css';
 import Products from './components/Products';
 import HeadPage from './components/HeadPage';
@@ -10,6 +11,12 @@ import {
 } from "react-router-dom";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false)
+  const theme = createTheme({
+    palette: {
+      mode : darkMode ? "dark" : "light"
+    },
+  })
   return (
     <>
     <Router>
